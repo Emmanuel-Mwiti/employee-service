@@ -11,3 +11,15 @@ Content-Type: application/json
     "gender":"FEMALE",
     "hireDate":"2018-02-17"
 }
+
+### List All Employees
+GET {{host}}/api/employee HTTP/1.1
+
+
+### Get by Employee Number
+GET {{host}}/api/employee/1 HTTP/1.1
+
+### Get by Employee Number
+DELETE  {{host}}/api/employee/1 HTTP/1.1
+
+
